@@ -1,0 +1,449 @@
+/*
+    Custom CSS to override template CSS
+    author: Rahamat Jahan
+
+*/
+
+/* Header */
+.header .top-navbar {
+    max-height: 50px;
+}
+
+/* Logo */
+.header .top-navbar .navbar-header .navbar-brand b {
+    line-height: 49px;
+}
+
+.bitbirds-logo {
+    width: 40%;
+    margin-right: 4rem;
+    margin-left: -0.5rem;
+}
+
+.bitbirds-text {
+    width: 55%;
+    margin-left: -6.5rem;
+}
+
+.mini-sidebar .bitbirds-logo {
+    width: 100%;
+    margin-right: 0;
+}
+
+.header .top-navbar .navbar-header .navbar-brand {
+    margin-right: 3rem;
+}
+
+.mini-sidebar .header .top-navbar .navbar-header .navbar-brand {
+    margin-right: 0;
+}
+
+
+/* Colors */
+
+.text-white {
+    /*color: #555 !important;*/
+    font-size: 14px;
+    font-weight: 700 !important;
+    letter-spacing: -1px !important;
+}
+
+.text-dark {
+    color: #555 !important;
+    font-size: 14px;
+    font-weight: 700 !important;
+    letter-spacing: -1px !important;
+}
+
+a:hover {
+    color: #fdb515;
+}
+
+.btn-xs:focus {
+    color: #fff;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #fdb515 !important;
+    border-color: #fdb515 !important;
+    color: #fff;
+}
+
+.sidebar-nav ul li a.active {
+    background-color: #535353;
+}
+
+.sidebar-nav ul li.active > a, .sidebar-nav ul li.active > a i {
+    color: #fdb515;
+}
+
+.sidebar-nav ul li a:hover, .sidebar-nav ul li a:hover i {
+    color: #fdb515;
+}
+
+.sidebar-nav .has-arrow:hover:after {
+    border-color: #fdb515;
+}
+
+.sidebar-nav .active > .has-arrow:after {
+    border-color: #fdb515;
+}
+
+.text-primary {
+    color: #777 !important;
+}
+
+.btn-link {
+    color: #777;
+    transition: 0.3s;
+}
+
+.btn-link:hover {
+    color: #fdb515;
+    border: 1px solid #fdb515;
+    border-radius: 0;
+}
+
+.dataTables_filter input:focus {
+    background-image: linear-gradient(#fdb515, #fdb515), linear-gradient(#b1b8bb, #b1b8bb);
+}
+
+.dataTables_length select:focus {
+    background-image: linear-gradient(#fdb515, #fdb515), linear-gradient(#b1b8bb, #b1b8bb);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #fdb515;
+    border-color: #fdb515;
+}
+
+.dt-buttons .dt-button {
+    background-color: #fdb515;
+}
+
+.dt-buttons .dt-button:hover {
+    background-color: #fdb515;
+    box-shadow: 0 14px 26px -12px rgba(116, 96, 238, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(116, 96, 238, 0.2);
+}
+
+.bg-primary {
+    background: #fdb515 !important;
+    fill: #fdb515;
+}
+
+.customtab2 li a.nav-link.active {
+    background-color: #fdb515;
+}
+
+.customtab2 li a.nav-link:hover {
+    background-color: #fdb515;
+}
+
+.header ul.dropdown-user li a:hover {
+    color: #fdb515;
+}
+
+.fix-sidebar .left-sidebar {
+    background-color: #535353;
+}
+
+.slimScrollDiv, .sidebar-nav {
+    background-color: #535353;
+    /*margin-top: -3.5rem;*/
+}
+
+.sidebar-nav ul li a, .sidebar-nav ul li a i {
+    color: #fff;
+}
+
+.sidebar-nav .has-arrow:after {
+    border-color: #fff;
+}
+
+.header .top-navbar .navbar-header {
+    background-color: #fdb515;
+}
+
+.sidebar-nav > ul > li.active > a {
+    border-color: #fdb515;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+    background-color: #535353;
+}
+
+.mini-sidebar .sidebar-nav #sidebarnav li:hover ul.collapse {
+    background-color: #535353;
+}
+
+.bg-dark {
+    background: #535353 !important;
+    fill: #535353;
+}
+
+.container-fluid {
+    background-color: rgba(83, 83, 83, 0.1);
+}
+
+body {
+    color: #777;
+}
+
+.dropdown-menu {
+    background-color: #535353;
+}
+
+.header ul.dropdown-user li a {
+    color: #fff;
+}
+
+.header ul.dropdown-user li a:hover {
+    background-color: #535353;
+}
+
+.header .top-navbar {
+    background-color: #535353;
+}
+
+
+/*
+    Login page
+*/
+
+.login-content {
+    margin: 21vh 0;
+}
+
+.login-form {
+    padding: 0;
+}
+
+.login-form label {
+    font-size: 14px;
+}
+
+.invalid-feedback {
+    display: unset;
+}
+
+/*
+    Left sidebar
+*/
+.sidebar-nav ul li a i {
+    width: 27px;
+}
+
+.mini-sidebar .sidebar-nav #sidebarnav > li > ul {
+    top: 37px;
+}
+
+/* Container */
+
+.container-fluid {
+    min-height: 76.2vh;
+    padding: 0 15px;
+}
+
+.page-wrapper {
+    padding-bottom: 0;
+}
+
+.page-titles {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Forms */
+
+.form-control {
+    border-color: #cfcfcf;
+    height: 35px;
+}
+
+.form-control:hover {
+    border-color: #b8b8b8;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.4rem + 2px);
+}
+
+textarea.form-control {
+    height: unset;
+}
+/* Buttons */
+
+.login-form .btn {
+    padding: 7px;
+}
+
+.btn {
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+.btn-flat {
+    border-radius: 0;
+}
+
+.fa-12 {
+    font-size: 12px;
+}
+
+/* Datatables */
+
+tbody tr td {
+    color: #5b666c;
+}
+
+.dataTables_info, .dataTables_paginate {
+    margin-top: 10px;
+}
+
+.dataTables_length {
+    margin-right: 20px;
+}
+
+.dataTables_length, .dt-buttons, .dataTables_filter {
+    display: inline-block;
+}
+
+.dt-buttons .dt-button {
+    display: inline-block;
+    margin: 2px;
+    border-radius: 0;
+}
+
+.dataTables_wrapper {
+    padding: 0;
+}
+
+.table > tbody > tr > td, .table > thead > tr > th {
+    line-height: 20px;
+}
+
+.table > thead > tr > th {
+    font-size: 13px;
+}
+
+/* Cards */
+
+.card {
+    border-radius: 0;
+    padding: 15px;
+}
+
+.card-header:first-child {
+    border-radius: 0;
+}
+
+.card-header {
+    padding: .5rem 1rem;
+}
+
+/* Tabs */
+
+.nav-tabs .nav-link {
+    border-radius: 0;
+}
+
+/* Paragraph */
+p {
+    color: #67757c;
+}
+
+/* Modals */
+
+.modal-dialog {
+    top: 45%;
+    overflow-y: initial !important;
+}
+
+.modal-90, .modal-80, .modal-70, .modal-60, .modal-50 {
+    max-width: 800px;
+}
+
+.modal-90 .modal-body {
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-80 .modal-body {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-70 .modal-body {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.modal-60 .modal-body {
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.modal-50 .modal-body {
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Footer */
+
+.footer {
+    margin: 0;
+    padding: 12px 15px;
+}
+
+#customerDetails {
+    display: none;
+}
+
+#changeCustomer {
+    display: none;
+}
+
+#incomeShowHide {
+    display: none;
+}
+
+#expenseShowHide {
+    display: none;
+}
+
+#billDetails {
+    display: none;
+}
+#changeVendor {
+    display: none;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+
+    /* Datatables */
+
+    .dataTables_length {
+        display: block;
+    }
+
+    .dt-buttons {
+        display: block;
+        margin-left: 0;
+    }
+
+    .dataTables_filter {
+        display: block;
+        float: left;
+    }
+}
